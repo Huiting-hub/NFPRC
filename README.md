@@ -27,4 +27,4 @@ Our models pre-trained by unsupervised contrastive learning for computing protot
 
 ## Acknowledgement
 
-We referred to the official code of [MoCo]([facebookresearch/moco: PyTorch implementation of MoCo: https://arxiv.org/abs/1911.05722](https://github.com/facebookresearch/moco)).
+We referred to the official code of [MoCo](https://github.com/facebookresearch/moco).
