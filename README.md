@@ -23,7 +23,7 @@ python main.py --dataset mnist --noise_type symmetric --noise_rate 0.4 --Lambda1
 
 ## Pretrained Models
 
-Our models pre-trained by unsupervised contrastive learning for computing prototypes can be downloaded as following: [Models]([pre-trained unsupervised models for NFPRC - Google 云端硬盘](https://drive.google.com/drive/folders/1TECIuxCObR_UEIYN1qsItLl9CvuwzUBx?hl=zh-cn))
+Our models pre-trained by unsupervised contrastive learning for computing prototypes can be downloaded as following: [Models](https://drive.google.com/drive/folders/1TECIuxCObR_UEIYN1qsItLl9CvuwzUBx?hl=zh-cn)
 
 ## Acknowledgement
 
