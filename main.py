@@ -421,11 +421,11 @@ def main(args):
     elif args.dataset == 'cifar10':
         clf1 = resnet.ResNet18(input_channel=3, num_classes=10)
         optimizer1 = torch.optim.SGD(clf1.parameters(), lr=learning_rate, weight_decay=args.weight_decay, momentum=0.9)
-        scheduler1 = MultiStepLR(optimizer1, milestones=[20,  80], gamma=0.1)
+        scheduler1 = MultiStepLR(optimizer1, milestones=[20,  30], gamma=0.1)
     elif args.dataset == 'cifar100':
         clf1 = resnet.ResNet50(input_channel=3, num_classes=100)
         optimizer1 = torch.optim.SGD(clf1.parameters(), lr=learning_rate, weight_decay=args.weight_decay, momentum=0.9)
-        scheduler1 = MultiStepLR(optimizer1, milestones=[30, 80], gamma=0.1)
+        scheduler1 = MultiStepLR(optimizer1, milestones=[30, 40], gamma=0.1)
 
     if torch.cuda.is_available():
         clf1.cuda()
