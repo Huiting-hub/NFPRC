@@ -358,13 +358,9 @@ def evaluate(test_loader, model1):
                 data = data.cuda()
             _, logits1 = model1(data)
             _, pred1 = torch.max(logits1.data, 1)
-            outputs1 = F.softmax(logits1, dim=1)
-            _, pred1 = torch.max(outputs1.data, 1)
             total1 += labels.size(0)
             correct1 += (pred1.cpu() == labels.long()).sum()
-
         acc1 = 100 * float(correct1) / float(total1)
-    
     return acc1
 
 def main(args):
