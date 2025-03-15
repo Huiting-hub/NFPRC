@@ -16,6 +16,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import random
 from PIL import ImageFilter
+import copy
 
 class CIFAR10Pair(CIFAR10):
     """CIFAR10 Dataset.
@@ -30,8 +31,6 @@ class CIFAR10Pair(CIFAR10):
             # img = Image.fromarray(img.numpy(), mode='L') for mnist and fmnist
 
         return im_1, im_2
-
-import copy
 
 class MoCo(nn.Module):
 
