@@ -25,10 +25,10 @@ python main.py --dataset mnist --noise_type symmetric --noise_rate 0.4 --Lambda1
 
 Our pre-trained models by unsupervised contrastive learning for computing prototypes can be downloaded as following: [Models](https://drive.google.com/drive/folders/1TECIuxCObR_UEIYN1qsItLl9CvuwzUBx?hl=zh-cn)
 
-You can also pretrain your own model by:
+You can also pretrain your own models by:
 
 ```
-python moco_v2.py --learning_rate 0.4 --batch_size 0.03 
+python moco_v2.py --learning_rate 0.01 --batch_size 128 
 ```
 ## Acknowledgement
 
