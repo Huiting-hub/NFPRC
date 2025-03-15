@@ -28,7 +28,7 @@ Our pre-trained models by unsupervised contrastive learning for computing protot
 You can also pretrain your own models by:
 
 ```
-python moco_v2.py --learning_rate 0.01 --batch_size 128 
+python moco_v2.py --learning_rate 0.06 --batch_size 256 
 ```
 ## Acknowledgement
 
