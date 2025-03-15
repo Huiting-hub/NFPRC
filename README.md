@@ -28,7 +28,7 @@ Our pre-trained models by unsupervised contrastive learning for computing protot
 You can also pretrain your own model by:
 
 ```
-python main.py --dataset mnist --noise_type symmetric --noise_rate 0.4 --Lambda1 0.03 --Lambda2 0.01 --seed 1
+python moco_v2.py --learning_rate 0.4 --batch_size 0.03 
 ```
 ## Acknowledgement
 
