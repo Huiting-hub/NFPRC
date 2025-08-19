@@ -1,6 +1,6 @@
 # NFPRC
 
-This is the code for: Tackling Noisy Labels with Noise-Free Prototype Guided Representation Calibration (PyTorch implementation).
+This is the code for: Noise-Free Prototype Guided Representation Calibration under Label Noise (PyTorch implementation).
 
 ## Dependencies
 
@@ -33,3 +33,4 @@ python moco_v2.py --learning_rate 0.06 --batch_size 256
 ## Acknowledgement
 
 We referred to the official code of [MoCo](https://github.com/facebookresearch/moco).
+
