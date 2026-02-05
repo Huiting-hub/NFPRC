@@ -30,7 +30,23 @@ You can also pretrain your own models by:
 ```
 python moco_v2.py --learning_rate 0.06 --batch_size 256 
 ```
+
+## BibTeX
+
+```
+@article{YUAN2025114308,
+title = {Noise-free prototype guided representation calibration under label noise},
+journal = {Knowledge-Based Systems},
+volume = {329},
+pages = {114308},
+year = {2025},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2025.114308},
+}
+```
+
 ## Acknowledgement
 
 We referred to the official code of [MoCo](https://github.com/facebookresearch/moco).
+
 
