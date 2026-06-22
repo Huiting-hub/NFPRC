@@ -36,6 +36,7 @@ python moco_v2.py --learning_rate 0.06 --batch_size 256
 ```
 @article{YUAN2025114308,
 title = {Noise-free prototype guided representation calibration under label noise},
+author = {Huiting Yuan and Tingjin Luo and Xinghao Wu and Jie Jiang},
 journal = {Knowledge-Based Systems},
 volume = {329},
 pages = {114308},
